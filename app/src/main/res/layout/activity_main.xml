@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/azul"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <!--
+        wrap ocupa o tamanho do objeto
+        usar sp nas fontes. 26sp = 26px; Obs: Usar sp
+
+        -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JOGO DA FORCA"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/branco"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/forca"
+
+            android:id="@+id/imgQuiz"
+
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="iniciar"
+
+            android:textColor="@color/branco"
+            android:textSize="20dp"
+            android:background="@color/btnIniciar"
+            android:layout_marginTop="20dp"
+
+
+            android:onClick="iniciarJogo"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

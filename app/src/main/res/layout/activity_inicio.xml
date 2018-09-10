@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/azul"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <!--
+        wrap ocupa o tamanho do objeto
+        usar sp nas fontes. 26sp = 26px; Obs: Usar sp
+
+        -->
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="JOGO DA FORCA"
+            android:textColor="@color/branco"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:id="@+id/painelResposta"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+
+            >
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnA"
+                android:onClick="btnclick"
+                android:text="A"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnB"
+                android:onClick="btnclick"
+                android:text="B"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnC"
+                android:onClick="btnclick"
+                android:layout_marginRight="3dp"
+                android:text="C"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnD"
+                android:onClick="btnclick"
+                android:layout_marginRight="3dp"
+                android:text="D"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnE"
+                android:onClick="btnclick"
+                android:layout_marginRight="3dp"
+                android:text="E"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnF"
+                android:onClick="btnclick"
+                android:text="F"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnG"
+                android:onClick="btnclick"
+                android:layout_marginRight="3dp"
+                android:text="G"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:id="@+id/btnH"
+                android:onClick="btnclick"
+                android:text="H"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:id="@+id/btnI"
+                android:onClick="btnclick"
+                android:text="I"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:id="@+id/btnJ"
+                android:onClick="btnclick"
+                android:text="J"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:id="@+id/btnK"
+                android:onClick="btnclick"
+                android:text="K"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:id="@+id/btnL"
+                android:onClick="btnclick"
+                android:text="L"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="3dp"
+                android:id="@+id/btnM"
+                android:onClick="btnclick"
+                android:text="M"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnN"
+                android:onClick="btnclick"
+                android:layout_marginRight="3dp"
+                android:text="N"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnO"
+                android:onClick="btnclick"
+                android:text="O"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnP"
+                android:onClick="btnclick"
+                android:layout_marginRight="3dp"
+                android:text="P"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnQ"
+                android:onClick="btnclick"
+                android:text="Q"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnR"
+                android:onClick="btnclick"
+                android:text="R"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnS"
+                android:onClick="btnclick"
+                android:text="S"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnT"
+                android:onClick="btnclick"
+                android:text="T"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnU"
+                android:onClick="btnclick"
+                android:text="U"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnV"
+                android:onClick="btnclick"
+                android:text="V"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnW"
+                android:onClick="btnclick"
+                android:text="W"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnX"
+                android:onClick="btnclick"
+                android:text="X"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnY"
+                android:onClick="btnclick"
+                android:text="Y"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnZ"
+                android:onClick="btnclick"
+                android:text="Z"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btnCedilha"
+                android:onClick="btnclick"
+
+                android:text="Ç"
+                android:textColor="@color/branco"
+                android:background="@color/azul"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
